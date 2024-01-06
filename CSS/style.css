@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(252, 254, 80); */
+    
+}
+/* body{
+    background-image: url("../park.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    
+} */
+h1{
+    text-align: center;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(255, 213, 5);
+    margin: 10px;
+    border: 2px solid rgb(255, 226, 2);
+    border-radius: 50%;
+    padding: 10px;
+
+}
+.con{
+    display: flex;
+
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 70px;
+}
+
+.ball{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    margin: auto;
+}
+.ball:hover{
+    margin: 20px;
+}
+.rect{
+    width: 200px;
+    height: 10px;
+    background-color: rgb(255, 0, 0);
+    margin: auto;
+    border-radius: 20%;
+}
+.rect:hover{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(255, 0, 0);
+    margin: auto;
+    border-radius: 20%;
+}
